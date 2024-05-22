@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Meet landing page</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+  </head>
+  <body>
+    <header class="header flex">
+      <a class="header__link" href="./index.html">
+        <div class="header__logo">
+          <img src="./assets/logo.svg" alt="main-logo" />
+        </div>
+      </a>
+    </header>
+
+    <main class="main flex">
+      <!-- HERO SECTION -->
+      <section class="hero flex">
+        <div class="hero__img-left">
+          <img
+            src="./assets/desktop/image-hero-left.png"
+            alt="hero-left-image"
+          />
+        </div>
+        <div class="hero__img-mobile">
+          <img src="./assets/tablet/image-hero.png" alt="hero-image" />
+        </div>
+        <div class="hero__content">
+          <h1 class="hero__title">Group Chat for Everyone</h1>
+          <p class="hero__desc">
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
+          <div class="hero__buttons flex">
+            <button class="button btn-1">Download<span>v1.3</span></button>
+            <button class="button btn-2">What is it?</button>
+          </div>
+        </div>
+        <div class="hero__img-right">
+          <img
+            src="./assets/desktop/image-hero-right.png"
+            alt="hero-right-image"
+          />
+        </div>
+      </section>
+
+      <!-- DIVIDER-->
+      <div class="divider flex">
+        <div class="divider__bar"></div>
+        <div class="divider__number-one">01</div>
+      </div>
+
+      <!-- GALLERY -->
+      <section class="gallery">
+        <div class="container">
+          <div class="gallery__images flex">
+            <div class="gallery__item">
+              <img
+                src="./assets/desktop/image-woman-in-videocall.jpg"
+                alt="woman-in-videocall"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                src="./assets/desktop/image-women-videochatting.jpg"
+                alt="women-videochatting"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                src="./assets/desktop/image-men-in-meeting.jpg"
+                alt="men-in-meeting"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                src="./assets/desktop/image-man-texting.jpg"
+                alt="man-texting"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MAIN DESC-->
+      <div class="main__desc">
+        <h2 class="main__subtitle">Built for modern use</h2>
+        <h3 class="main__title">Smarter meetings, all in one place</h3>
+        <p class="main__description">
+          Send messages, share files, show your screen, and record your meetings
+          — all in one workspace. Control who can join with invite-only team
+          access, data encryption, and data export.
+        </p>
+      </div>
+    </main>
+
+    <div class="divider-2 flex">
+      <div class="divider__bar"></div>
+      <div class="divider__number-one">02</div>
+    </div>
+
+    <!-- FOOTER  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <h4 class="footer__title">Experience more together</h4>
+          <p class="footer__desc">
+            Stay connected with reliable HD meetings and unlimited one-on-one
+            and group video sessions.
+          </p>
+          <button class="button footer__btn">Download<span>v1.3</span></button>
+        </div>
+      </div>
+      <div class="footer__overlay"></div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="./js/scrollreveal.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
